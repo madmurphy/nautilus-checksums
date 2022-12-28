@@ -1,0 +1,48 @@
+# Italian translations for Nautilus Checksums.
+# Copyright (C) 2022 <madmurphy333@gmail.com>
+# This file is distributed under the same license as the Nautilus Checksums
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-checksums 0.1.0\n"
+"Report-Msgid-Bugs-To: madmurphy333@gmail.com\n"
+"POT-Creation-Date: 2022-12-27 23:00+0100\n"
+"PO-Revision-Date: 2022-12-27 23:00+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Italian <tp@lists.linux.it>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/nautilus-checksums.c:228
+msgid "Could not allocate memory for calculating one or more checksums"
+msgstr ""
+"Impossibile allocare memoria per calcolare una o più somme di controllo"
+
+#: src/nautilus-checksums.c:288
+msgid "I/O error"
+msgstr "Errore I/O"
+
+#: src/nautilus-checksums.c:325
+msgid "Unable to close file stream"
+msgstr "Impossibile chiudere il flusso del file"
+
+#: src/nautilus-checksums.c:393
+msgid "Unable to compute checksums at the moment"
+msgstr "Impossibile calcolare le somme di controllo al momento"
+
+#: src/nautilus-checksums.c:405
+msgid "Checksums"
+msgstr "Somme di controllo"
+
+#: src/nautilus-checksums.c:529
+msgid ""
+"Unable to create thread pool for calculations - Nautilus Checksums will be "
+"disabled"
+msgstr ""
+"Impossibile creare il thread pool dedito a calcolare le somme di controllo - "
+"Nautilus Checksums verrà disabilitato"

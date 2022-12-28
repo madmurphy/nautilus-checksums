@@ -1,0 +1,39 @@
+{
+	"name": "nautilus-checksums",
+	"version": "0.1.0",
+	"description": "Add checksums to Nautilus' properties window",
+	"homepage": "https://gitlab.gnome.org/madmurphy/nautilus-checksums",
+	"author": "madmurphy333@gmail.com",
+	"license": "GPL-3.0-or-later",
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.gnome.org/madmurphy/nautilus-checksums.git"
+	},
+	"dependencies": {
+		"glib": ">=2",
+		"libnautilus-extension": ">=4"
+	},
+	"devDependencies": {
+		"gettext": ">=0.19",
+		"pkgconfig": ">=0.9.0"
+	},
+	"src": [
+		"src/nautilus-checksums.c"
+	],
+	"bugs": {
+		"url": "https://gitlab.gnome.org/madmurphy/nautilus-checksums/issues",
+		"email" : "madmurphy333@gmail.com"
+	},
+	"keywords": [
+		"c",
+		"checksums",
+		"desktop",
+		"desktop-environment",
+		"file-manager",
+		"gnome",
+		"gnu",
+		"nautilus",
+		"nautilus-extension"
+	]
+}
+
