@@ -1,0 +1,45 @@
+# Polish translations for nautilus-checksums package.
+# Copyright (C) 2024 madmurphy333@gmail.com
+# This file is distributed under the same license as the nautilus-checksums package.
+#  <adiee5@adiee5.ct8.pl>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-checksums 0.1.0\n"
+"Report-Msgid-Bugs-To: madmurphy333@gmail.com\n"
+"POT-Creation-Date: 2024-07-13 02:42+0200\n"
+"PO-Revision-Date: 2024-07-13 02:43+0200\n"
+"Last-Translator:  <adiee5@adiee5.ct8.pl>\n"
+"Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: src/nautilus-checksums.c:228
+msgid "Could not allocate memory for calculating one or more checksums"
+msgstr "Nie dało się zarezerwować pamięci na obliczenie jednej lub kilku sum"
+
+#: src/nautilus-checksums.c:288
+msgid "I/O error"
+msgstr "Błąd z I/O"
+
+#: src/nautilus-checksums.c:325
+msgid "Unable to close file stream"
+msgstr "Nie można zamknąć strumienia pliku"
+
+#: src/nautilus-checksums.c:393
+msgid "Unable to compute checksums at the moment"
+msgstr "Nie można obliczyć sum kontrolnych na tą chwilę"
+
+#: src/nautilus-checksums.c:405
+msgid "Checksums"
+msgstr "Sumy kontrolne"
+
+#: src/nautilus-checksums.c:529
+msgid ""
+"Unable to create thread pool for calculations - Nautilus Checksums will be "
+"disabled"
+msgstr "Nie można stworzyć puli wątków do obliczeń - Nautilus Checksums zostanie zdezaktywowany"
